@@ -1,4 +1,4 @@
-package cucumber;
+package steps;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -14,7 +14,7 @@ import steps.BaseTest;
                 "pretty"
         }
 )
-public class Runner {
+public class RunCucumberTest {
 
     @BeforeClass
     public static void setup() {
